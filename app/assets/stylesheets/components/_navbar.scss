@@ -1,12 +1,26 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar-container {
+  height: 60px;
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid $blue1;
+  background-color: $blue2;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-inner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  img {
+    margin: 0px 8px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .log-out-btn {
+    background-color: $blue2;
+    border: 2px solid $blue1;
+    border-radius: 4px;
+  }
 }
