@@ -1,1 +1,14 @@
-// Specific CSS for your home-page
+.home-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+
+.home-main-body {
+  background-color: $light-gray;
+  border: 2px solid $blue1;
+  border-radius: 5px;
+  margin: 8px;
+  width: 80%;
+}
