@@ -10,6 +10,11 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
       t.string :uid
       t.string :avatar_url
       t.string :provider
+      t.string :dob
+      t.string :nationality
+      t.string :nin
+      t.string :rank
+
 
 
 

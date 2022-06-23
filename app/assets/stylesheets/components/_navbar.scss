@@ -10,7 +10,18 @@
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
   align-items: center;
   img {
     margin: 0px 8px;
@@ -18,6 +29,7 @@
     width: 50px;
     border-radius: 50%;
   }
+
   .log-out-btn {
     background-color: $blue2;
     border: 2px solid $blue1;
